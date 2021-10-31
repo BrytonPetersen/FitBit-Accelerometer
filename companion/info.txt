@@ -1,0 +1,6 @@
+This folder contains the companion logic which executes on
+the mobile device. Code in this folder has access to the 
+Companion API and is capable of making direct requests to
+the internet, and communicating with the application.
+
+If an index.js or index.ts file exist in this folder, the companion will be built.

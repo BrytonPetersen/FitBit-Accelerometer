@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "61b6b95a-dab3-4b0c-9c44-c15a86b034fb",
+    "appType": "app",
+    "appDisplayName": "Accelerometer",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#009688",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "gemini"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Accelerometer"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

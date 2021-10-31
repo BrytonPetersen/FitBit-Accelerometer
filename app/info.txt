@@ -1,0 +1,18 @@
+This folder contains the application logic which executes on the device. Code in this folder 
+has access to the Device API and is capable of interacting directly with the presentation layer,
+communicating with the companion, or reading and writing settings.
+
+ONLY THE IONIC HAS THE GYROSCOPE
+UNSURE OF ANY DEVICE THAT HAS AN ORIENTATION SENSOR
+
+Acceleration towards the ground should always be 9.8 m/s^2. You can find orientation using that. Ergo, you can use it like a noisy orientation sensor. 
+
+Linear acceleration = Accelerometer Data - gravity
+Integral(linear acceleration) = velocity
+Integral(velocity) = position
+
+Any drift at all in the first integral creates even worse drift
+
+(1 second of drift >= 20 cm of positional error) 
+
+
